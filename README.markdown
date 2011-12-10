@@ -13,7 +13,7 @@ Create a bookmarklet that injects this script onto the page.
 Add the following into the href of and anchor tag:
 
 ```javascript
-javascript:(function()_s=document.createElement('script');_s.type='text/javascript';s.src='[url to script]';document.getElementsByTagName('head')[0].appendChild(_s);})();
+javascript:(function()_s=document.createElement('script');_s.type='text/javascript';_s.src='[url to script]';document.getElementsByTagName('head')[0].appendChild(_s);})();
 ```
 
 Then drag into your bookmarks on your favorite browser.
