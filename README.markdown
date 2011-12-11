@@ -8,12 +8,10 @@ Save your wrist inject this!
 Usage
 =====
 
-Create a bookmarklet that injects this script onto the page.
-
-Add the following into the href of and anchor tag:
+To create a bookmarklet that injects this script into a page add the following into the href attribute of an anchor tag:
 
 ```javascript
 javascript:(function()_s=document.createElement('script');_s.type='text/javascript';_s.src='[url to script]';document.getElementsByTagName('head')[0].appendChild(_s);})();
 ```
 
-Then drag into your bookmarks on your favorite browser.
+Then drag into your bookmarks on your favorite browser, click and enjoy.
